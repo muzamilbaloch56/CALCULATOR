@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculator 😋</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calc-wrap">
+    <div class="brand">
+      <div>
+        <div class="title">Calculator...</div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="history" id="history">&nbsp;</div>
+      <div class="current" id="output">0</div>
+    </div>
+
+    <div class="pad">
+      <button class="key ac" data-action="clear">C</button>
+      <button class="key ac" data-action="del">DEL</button>
+      <button class="key op" data-value="%">%</button>
+      <button class="key op" data-value="/">÷</button>
+
+      <button class="key" data-value="7">7</button>
+      <button class="key" data-value="8">8</button>
+      <button class="key" data-value="9">9</button>
+      <button class="key op" data-value="*">×</button>
+
+      <button class="key" data-value="4">4</button>
+      <button class="key" data-value="5">5</button>
+      <button class="key" data-value="6">6</button>
+      <button class="key op" data-value="-">−</button>
+
+      <button class="key" data-value="1">1</button>
+      <button class="key" data-value="2">2</button>
+      <button class="key" data-value="3">3</button>
+      <button class="key op" data-value="+">+</button>
+
+      <button class="key" data-value="0" style="grid-column:span 2">0</button>
+      <button class="key" data-value=".">.</button>
+      <button class="key eq" data-action="equals">=</button>
+    </div>
+
+    <div class="footer">
+      <div class="small">Made by muzamil😎</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
