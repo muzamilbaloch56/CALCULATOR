@@ -7,6 +7,8 @@
   --txt:#e6eef8;
   --muted:#9aa6bf;
   --accent-color: #7c3aed;
+  disply:flex;
+  justify-content:center;
 }
 *{box-sizing:border-box}
 html,body{height:100%;}
@@ -50,7 +52,7 @@ button.key:active{transform:translateY(2px)}
 button.op{background:linear-gradient(90deg,#7c3aed 0%, #06b6d4 100%); color:white; box-shadow:0 6px 20px rgba(7,30,80,0.25)}
 button.eq{grid-column:span 2; background:var(--accent-color); background:linear-gradient(90deg,#06b6d4,#7c3aed); color:white}
 button.ac{background:transparent; color:var(--muted); border:1px dashed rgba(255,255,255,0.03)}
-.small{font-size:14px}
+.small{font-size:14px;disply:flex;justify-content:center;}
 .footer{margin-top:14px; display:flex; justify-content:space-between; color:var(--muted); font-size:12px}
 .output.current{font-weight: bold; font-size: large;}
 button.key:hover{box-shadow:  2px 2px 2px 2px#06b6d4;}
@@ -58,3 +60,4 @@ button.key:hover{box-shadow:  2px 2px 2px 2px#06b6d4;}
   .current{font-size:22px}
   button.key{padding:14px; font-size:16px}
 }
+
